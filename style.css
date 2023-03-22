@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: medium;
+}
+
+main {
+    height: 100vh;
+   display: flex;
+   background-color: rgb(100, 96, 96);
+   justify-content: center;
+   align-items: center;
+}
+
+.all {
+    height: 35rem;
+    width: 18rem;
+    display: grid;
+    grid-template-rows: 14rem 6fr;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.screen {
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+  
+}
+
+h1{
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-right:1.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 1rem;
+  
+    
+}
+
+.keys .yes {
+    border-radius: 50%;
+    height:3.5rem;
+    width: 3.5rem;
+    background-color: white;  
+    border: none; 
+    background-color: gray;
+    color: white;
+
+}
+
+
+.keys .lol {
+    border-bottom-left-radius: 27px;
+    border-top-right-radius:27px ;
+    border-top-left-radius:27px ;
+    border-bottom-right-radius:27px;
+    grid-area: 5/1/5/3;
+    height: 3.5rem;
+    width: 7.3rem;
+    border: none;
+    background-color: gray;
+    color: white;
+    padding-right: 5rem;
+}
+
+#pay{
+    background-color: rgb(245, 209, 7);
+    border: none;
+}
+
+
+#none {
+    background-color: rgb(243, 236, 236);
+    color: black;
+}
